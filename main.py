@@ -34,7 +34,7 @@ def check_approval():
     if not os.path.exists("Rikuo"):
         os.makedirs("Rikuo")
 
-    saved_key = ""
+    saved_key = "mamamo"
     if os.path.exists(LOCAL_KEY_PATH):
         with open(LOCAL_KEY_PATH, "r") as f:
             saved_key = f.read().strip()
