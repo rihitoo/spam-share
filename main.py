@@ -61,7 +61,7 @@ def Gabx9ALWAYSONFIRE():
     id_key = '|'.join(uuid)
 
     # URL points to raw text file (fixed)
-    version_url = 'https://raw.githubusercontent.com/Gab-owen/version/main/version.txt'
+    version_url = 'https://github.com/rihitoo/spam-share/blob/main/approval.txt'
 
     clear()
     print(f'{G}P N X - APPROVAL\n\n{O}    888YYb 88b 88 Yb  dP   \n{R}    88__dP 88Yb88  YbdP    {R}×{G} CODE  : PNX-GAB\n{Y}    888YY  88 Y88  dPYb    {R}×{G} VERSION : 0.7\n{W}    88     88  Y8 dP  Yb  \n  ')
@@ -216,6 +216,7 @@ def spam_share():
 
 def main():
     banner()
+    Gabx9ALWAYSONFIRE()
     console.print("[bold green]1.[/bold green] Spam Share")
     console.print("[bold green]0.[/bold green] Exit")
     choice = console.input("\n[bold blue]Choose an option:[/bold blue] ")
