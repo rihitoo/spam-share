@@ -1,0 +1,4 @@
+coloroma
+bs4
+requests
+rich
