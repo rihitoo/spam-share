@@ -1,4 +1,4 @@
-coloroma
+colorama
 bs4
 requests
 rich
